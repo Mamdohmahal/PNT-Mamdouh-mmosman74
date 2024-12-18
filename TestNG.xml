@@ -1,0 +1,20 @@
+<suite name="TestSuite" parallel="methods" thread-count="5">
+    <listeners>
+        <listener class-name="com.bcframeworkhybrid.listeners.ExtentTestListener" />
+    </listeners>
+    <test name="RegistrationTests">
+        <classes>
+            <class name="com.bcframeworkhybrid_testcases.RegisterTest" />
+        </classes>
+    </test>
+    <test name="LoginTests">
+        <classes>
+            <class name="com.bcframeworkhybrid_testcases.LoginTest" />
+        </classes>
+    </test>
+    <test name="SearchTests">
+        <classes>
+            <class name="com.bcframeworkhybrid_testcases.SearchTest" />
+        </classes>
+    </test>
+</suite>
